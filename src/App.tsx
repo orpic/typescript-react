@@ -1,7 +1,13 @@
 import "./App.css";
+import InputField from "./components/InputField";
 
-function App() {
-  return <>Hello World</>;
-}
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <span className="heading">Todo App</span>
+      <InputField />
+    </div>
+  );
+};
 
 export default App;
